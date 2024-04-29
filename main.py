@@ -12,8 +12,6 @@ def main():
     formatPrint(letterDic)
     print("--- End Report ---")
     
-
-
 def readBook(filePath):
     with open(filePath) as file:
         return file.read()
@@ -50,7 +48,5 @@ def formatPrint(dictionary):
 
     for i in localList:
         print(f"The '{i["name"]}' character was found {i["num"]} times")
-
-
 
 main()
